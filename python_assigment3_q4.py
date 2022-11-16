@@ -1,0 +1,8 @@
+tup=("Gandhi ji","Nehru","Subhaschandra bosz","Bagat singh","Sukh dev")
+tup2=("Bnanana","Apple","Cherry","mango","Graphs")
+print(tup)
+print(tup[0])
+print(tup[1:3])
+print(tup[2:])
+print(tup * 2)
+print(tup + tup2)
