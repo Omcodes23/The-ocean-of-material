@@ -9,8 +9,34 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444;
+  background: linear-gradient(55deg, #7cf0c4, #55c7ae, #21b847, #a0ffcb, #a6fcad, #a8fabd);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 77%}
+    50%{background-position:100% 24%}
+    100%{background-position:0% 77%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 77%}
+    50%{background-position:100% 24%}
+    100%{background-position:0% 77%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 77%}
+    50%{background-position:100% 24%}
+    100%{background-position:0% 77%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 77%}
+    50%{background-position:100% 24%}
+    100%{background-position:0% 77%}
 }
 
 a {
@@ -347,7 +373,7 @@ h6,
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(30, 8975, 86, 1), rgba(2, 135, 202, 0.6)), center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -654,10 +680,11 @@ section {
   overflow: hidden;
   margin: 0 0 40px 0;
   background: #fff;
-  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  box-shadow: 0 5px 26px 0 rgba(23, 44, 102, 0.14);
   transition: all 0.3s ease-in-out;
   text-align: center;
-  border: 1px solid #fff;
+  border: 1px solid rgb(51, 123, 133);
+  border-radius:10px;
 }
 
 .services .icon {
@@ -665,9 +692,8 @@ section {
   padding-top: 17px;
   display: inline-block;
   text-align: center;
-  border-radius: 50%;
-  width: 72px;
-  height: 72px;
+  
+  
 }
 
 .services .icon i {
@@ -691,9 +717,7 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box-pink .icon {
-  background: #fceef3;
-}
+
 
 .services .icon-box-pink .icon i {
   color: #ff689b;
@@ -707,9 +731,7 @@ section {
   background: #e6fdfc;
 }
 
-.services .icon-box-cyan .icon i {
-  color: #3fcdc7;
-}
+
 
 .services .icon-box-cyan:hover {
   border-color: #3fcdc7;
@@ -1119,7 +1141,7 @@ section {
 
 .service-details .card-body {
   z-index: 10;
-  background: #fff;
+  background: rgb(77, 209, 150);
   border-top: 4px solid #fff;
   padding: 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1134,7 +1156,7 @@ section {
 }
 
 .service-details .card-title a {
-  color: #1e4356;
+  color: #090c0e;
   transition: 0.3s;
 }
 
@@ -1163,7 +1185,7 @@ section {
 }
 
 .service-details .card:hover .card-body .card-title a {
-  color: #68A4C4;
+  color: #127a64;
 }
 
 /*--------------------------------------------------------------
@@ -2174,9 +2196,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: linear-gradient(to right, rgba(30, 8975, 86, 1), rgba(2, 135, 202, 0.6)), center top no-repeat;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: rgb(7, 6, 6);
   font-size: 14px;
 }
 
